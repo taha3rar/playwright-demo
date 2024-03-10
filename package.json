@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "cucumber-js  src/e2e/features/*.ts"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@playwright/test": "^1.36.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
